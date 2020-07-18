@@ -1,0 +1,10 @@
+﻿@model ProductListViewModel
+@{
+    ViewData["Title"] = "List";
+}
+
+@foreach (var product in Model.Products)
+{
+    <partial name="_ProductCard" model="product" />
+}
+
