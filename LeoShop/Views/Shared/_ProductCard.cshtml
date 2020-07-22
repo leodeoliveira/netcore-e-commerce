@@ -7,15 +7,15 @@
             <h3 class="pull-right">@Model.Price.ToString("c")</h3>
             <h3>
                 <a asp-controller="Product" asp-action="Details" asp-route-id="@Model.Id">@Model.Name</a>
-                <a>@Model.Category.Name</a>
             </h3>
+            <h4>@Model.ShortDescription</h4>
         </div>
         <div class="addToCart">
             <p class="button">
                 <a class="btn btn-primary"
                    asp-controller="ShoppingCart"
                    asp-action="AddToShoppingCart"
-                   asp-route-productId="@Model.Id">Adicionar ao carrinho</a>
+                   asp-route-productId="@Model.Id">Add to cart</a>
             </p>
         </div>
     </div>
