@@ -16,5 +16,5 @@ Below we can see some images from project
 ![Login page](LeoShop/Screenshots/login.PNG)
 ![Home page](LeoShop/Screenshots/home.PNG)
 ![Product Catalog page](LeoShop/Screenshots/product-list.PNG)
-![Home page](LeoShop/Screenshots/cpntact.PNG)
+![Contact page](LeoShop/Screenshots/contact.PNG)
 
