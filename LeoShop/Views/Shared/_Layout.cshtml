@@ -29,12 +29,13 @@
                         @await Component.InvokeAsync("CategoryMenu")
                         @await Component.InvokeAsync("ShoppingCartSummary")
                         <li><a asp-controller="Contact" asp-action="Index">Contact</a></li>
+                        <partial name="_LoginPartial" />
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="row">
+        <div css="row">
             <div class="col-md-3">
                 <p class="lead">
                     <img class="img-responsive" alt="Léo shops" src="~/Images/bethanylogo.png" />
@@ -45,5 +46,6 @@
             </div>
         </div>
     </div>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
